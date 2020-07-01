@@ -1,0 +1,153 @@
+/* 公共样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+    font-size: 16px;
+}
+
+.header-content {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    /* float: left; */
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 头部 */
+
+header {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 基本信息 */
+
+.base {
+    box-sizing: border-box;
+    height: 80px;
+    /* background-color: pink; */
+}
+
+.base .base-t {
+    height: 40px;
+    line-height: 40px;
+    /* background: blue; */
+    margin-bottom: 5px;
+}
+
+.base ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.base li span:first-child {
+    font-weight: bold;
+}
+
+/* 联系方式 */
+
+.contact {
+    box-sizing: border-box;
+    height: 80px;
+    /* background-color: blue; */
+}
+
+.contact .contact-t {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.contact ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.contact li span:first-child {
+    font-weight: bold;
+}
+
+/* 能力描述 */
+
+.skill {
+    box-sizing: border-box;
+    height: 150px;
+    /* background-color: gold; */
+}
+
+.skill .skill-t {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.skill ul li {
+    margin-bottom: 8px;
+}
+
+.skill li p:first-child {
+    font-weight: bold;
+}
+
+/* 教育经历 */
+
+.edu {
+    box-sizing: border-box;
+    height: 150px;
+    /* background-color: red; */
+}
+
+.edu .edu-t {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.edu ul li {
+    margin-bottom: 8px;
+}
+
+.edu li p:first-child {
+    font-weight: bold;
+}
+
+/* 项目经历 */
+
+.project {
+    box-sizing: border-box;
+    height: 150px;
+    /* background-color: red; */
+}
+
+.project .project-t {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.project ul li {
+    margin-bottom: 8px;
+}
+
+.project li p:first-child {
+    font-weight: bold;
+}

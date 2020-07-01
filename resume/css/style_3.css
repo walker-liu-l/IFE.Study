@@ -1,0 +1,163 @@
+/* 公共样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1000px;
+    font-size: 16px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.title-box {
+    height: 150px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.left-box {
+    float: left;
+    height: 100%;
+    width: 150px;
+    background-color: #d6d6d6;
+    border-bottom: 1px solid white;
+}
+
+.fl {
+    float: left;
+}
+
+.header-content {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    float: left;
+    /* width: 100%; */
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+li {
+    /* float: left; */
+    list-style: none;
+}
+
+li span:first-child {
+    font-weight: bold;
+}
+
+li p:first-child {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 比例布局样式 */
+
+/* .move {
+    padding-left: 30px;
+} */
+
+#app {
+    height: 800px;
+    /* background-color: pink; */
+}
+
+/* 头部 */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #858585;
+    padding-left: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+/* 基本信息 */
+.base {
+    /* background-color: blue; */
+}
+
+.base .base-t {
+    line-height: 150px;
+    text-align: center;
+    /* background-color: skyblue; */
+}
+
+.base li {
+    float: left;
+    margin-right: 50px;
+}
+
+/* 联系方式 */
+.contact {
+    /* background-color: gold; */
+}
+
+.contact .contact-t {
+    line-height: 150px;
+    text-align: center;
+}
+
+.contact li {
+    float: left;
+    margin-right: 50px;
+}
+
+/* 能力描述 */
+.skill {
+    /* background-color: gray; */
+}
+
+.skill .skill-t {
+    line-height: 150px;
+    text-align: center;
+}
+
+.skill li p:first-child {
+    float: left;
+}
+
+.skill li {
+    margin-bottom: 5px;
+}
+
+/* 教育经历 */
+.edu {
+    /* background-color: yellow; */
+}
+
+.edu .edu-t {
+    line-height: 150px;
+    text-align: center;
+}
+
+.edu li {
+    margin-bottom: 5px;
+}
+
+/* 项目经历 */
+.project .project-t {
+   line-height: 150px;
+   text-align: center;
+}
+
+.project li {
+    margin-bottom: 5px;
+}

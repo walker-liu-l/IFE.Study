@@ -1,0 +1,125 @@
+/* 公共样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1000px;
+    font-size: 16px;
+}
+
+.header-content {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    /* float: left; */
+    list-style: none;
+}
+
+li span:first-child {
+    font-weight: bold;
+}
+
+li p:first-child {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 比例布局样式 */
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.right {
+    float: right;
+    width: 80%;
+}
+
+.move {
+    margin-left: 30px;
+}
+
+/* 头部 */
+
+header {
+    box-sizing: border-box;
+    height: 608px;
+    background-color: #65a5fa;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* main部分 */
+
+/* 基本信息部分 */
+
+.base {
+    height: 80px;
+    /* background-color: pink; */
+}
+
+.base li {
+    float: left;
+    margin-right: 50px;
+}
+
+/* 联系方式 */
+.contact {
+    height: 80px;
+    /* background-color: blue; */
+}
+
+.contact li {
+    float: left;
+    margin-right: 50px;
+}
+
+/* 能力描述 */
+.skill {
+    height: 150px;
+    /* background-color: gold; */
+}
+
+.skill li {
+    margin-bottom: 10px;
+}
+
+/* 教育 */
+.edu {
+    height: 150px;
+    /* background-color: skyblue; */
+}
+
+.edu li {
+    margin-bottom: 10px;
+}
+
+/* 项目 */
+.project {
+    height: 150px;
+    /* background-color: yellow; */
+}
+
+.project li {
+    margin-bottom: 10px;
+}
