@@ -1,0 +1,310 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+#app {
+    /* position: relative; */
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.ico {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    min-height: 100%;
+    background-color: pink;
+    background-color: #1d2531;
+}
+
+.icos {
+    position: relative;
+}
+
+.ico .icos li {
+    position: absolute;
+    /* width: 40px;
+    height: 40px; */
+    font-size: 40px;
+    /* border-radius: 50%; */
+    list-style: none;
+}
+
+.ico .icos .icon-tuisongduanxintongzhi {
+    top: 20px;
+    left: 30px;
+    color: white;
+}
+
+.ico .icos .icon-huojian {
+    top: 75px;
+    left: 30px;
+    color: white;
+}
+
+.ico .icos .icon-youxiji {
+    top: 130px;
+    left: 30px;
+    color: gold;
+}
+
+.ico .icos .icon-jiahao {
+    top: 185px;
+    left: 30px;
+    color: white;
+}
+
+.ico .icos .icon-caidan {
+    font-size: 18px;
+    top: 620px;
+    left: 20px;
+    color: #465263;
+}
+
+.ico .icos .icon-shezhi {
+    font-size: 18px;
+    top: 620px;
+    left: 60px;
+    color: #465263;
+}
+
+.list {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 200px;
+    height: auto;
+    min-height: 100%;
+    background-color: #222c3c;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu ul {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #a2acb9;
+}
+
+.menu ul li {
+    margin-top: 8px;
+}
+
+.menu ul li:first-child {
+    margin-bottom: 15px;
+    color: #4d586a;
+}
+
+.menu ul li:first-child i {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    font-size: 12px;
+}
+
+.menu ul li .num {
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #279df4;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+/* 右侧白色区域 */
+
+.main {
+    width: calc(100% - 300px);
+    height: 100%;
+    /* background-color: pink; */
+    margin-left: 300px;
+}
+
+.main .main-left {
+    float: left;
+    width: 350px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.main .main-left .messages-l {
+    height: 60px;
+    background-color: #fff;
+}
+
+.main .main-left .messages-l span {
+    line-height: 60px;
+    padding-left: 30px;
+}
+
+.main .main-left .search {
+    position: relative;
+    height: 50px;
+    border-top: 1px solid rgb(185, 182, 182);
+    border-right: 1px solid rgb(185, 182, 182);
+    border-bottom: 1px solid rgb(185, 182, 182);
+}
+
+.main .main-left .search input {
+    position: absolute;
+    top: 9px;
+    left: 22px;
+    width: 300px;
+    height: 30px;
+    color: rgb(185, 182, 182);
+    padding-left: 8px;
+    outline: none;
+}
+
+.main .main-left .search i {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-weight: bold;
+    color: rgb(185, 182, 182);
+}
+
+.main .main-left .con-list {
+    border-right: 1px solid rgb(185, 182, 182);
+}
+
+.main .main-left .con-list li {
+    font-size: 12px;
+    color: rgb(88, 93, 104);
+    height: 105px;
+    width: 100%;
+    /* background-color: pink; */
+    border-bottom: 1px solid rgb(185, 182, 182);
+}
+
+.main .main-left .con-list li:first-child {
+    position: relative;
+}
+
+.main .main-left .con-list li:first-child .icon-icon-test {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 45px;
+}
+
+.main .main-left .con-list li:first-child .smallR {
+    position: absolute;
+    top: 17px;
+    left: 55px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #269bf3;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.main .main-left .con-list li:first-child .name {
+    position: absolute;
+    top: 12px;
+    left: 65px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #269bf3;
+}
+
+.main .main-left .con-list li:first-child .twitter {
+    position: absolute;
+    top: 30px;
+    left: 55px;
+}
+
+.main .main-left .con-list li:first-child p {
+    position: absolute;
+    top: 60px;
+    left: 8px;
+}
+
+.main .main-left .con-list li:first-child .round {
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background-color: #269bf3;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.main .main-right {
+    float: left;
+    width: calc(100% - 350px);
+    height: 100%;
+    /* background-color: skyblue; */
+}
+
+.main .main-right .messages-r {
+    position: relative;
+    height: 60px;
+    background-color: #fff;
+}
+
+.main .main-right .messages-r i {
+    position: absolute;
+    top: 10px;
+    right: 135px;
+    font-size: 40px;
+}
+
+.main .main-right .messages-r .name {
+    position: absolute;
+    top: 12px;
+    right: 70px;
+    color: #3fa6f2;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main .main-right .messages-r .admin {
+    position: absolute;
+    top: 30px;
+    right: 51px;
+    font-size: 12px;
+    color: #c3cada;
+}
+
+.main .main-right .messages-r .icon-xiajiantou {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #c3cada;
+    font-weight: bold;
+}
+
+.main .main-right .comment-top {
+    height: 50px;
+    border-top: 1px solid rgb(185, 182, 182);
+    border-bottom: 1px solid rgb(185, 182, 182);
+}
