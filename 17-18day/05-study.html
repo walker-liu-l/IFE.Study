@@ -11,12 +11,12 @@
 
 </body>
 <script>
-    //重点是把数字转换为数组，然后使用数组方法
+    //重点是把数字转换为数组，然后使用数组方法 
     var arr = [];
     for (var i = 1; i <= 100; i++) {
         arr.push(i);
-        if (i % 3 == 0 || i.toString().indexOf(3) != -1) {
-            arr.splice(i - 1, 1, 'PA')
+        if (i % 3 == 0 || i.toString().indexOf(3) != -1) { //找到符合条件的元素
+            arr.splice(i - 1, 1, 'PA')                     //将符合条件的元素替换成 ‘PA’
         }
         console.log(arr[i - 1]);
 
