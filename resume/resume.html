@@ -99,8 +99,15 @@
     </div>
 </body>
 <script>
-    function hi() {
-        alert('你好呀，这是我的简历。')
+    var time = new Date().getHours();
+    
+    if (time < 10) {
+        alert('早上好');
+    } else if (time < 20) {
+        alert('下午好');
+    } else {
+        alert('晚上好')
     }
 </script>
+
 </html>

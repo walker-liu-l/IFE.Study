@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九九乘法表</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    //使用了 document.write 来写入标签
+
+    //步骤：1.新建一个Table表
+    document.write("<table border='1'>");
+    //步骤2：利用tr输出9个行。
+    for (var i = 1; i <= 9; i++) {
+        document.write("<tr>");
+        //步骤3:双重for循环，建立45个td,成三角形。
+        for (var j = 1; j <= i; j++) {
+            document.write("<td>");
+            document.write(j + "*" + i + "=" + j * i);
+            document.write("</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+</script>
+
+</html>
