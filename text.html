@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <p>请输入1-10之间的数</p>
+    <input type="text" required>
+    <button>提交</button>
 </body>
+
+<script>
+    var btn = document.querySelector('button');
+    btn.addEventListener("click", handle);
+    function handle() {
+        var txt = document.querySelector('input');
+        if (isNaN(txt.value) || txt.value < 1 || txt.value > 10) {
+            alert('输入无效')
+        } else {
+            alert('输入有效')
+        }
+    }
+</script>
+
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件及事件监听</title>
+</head>
+
+<body>
+    <input id="name" type="text">
+    <button id="submit-btn" onclick="btn()">Submit</button>
+
+</body>
+<script>
+    var ipt = document.querySelector('#name');
+    function btn() {
+        alert(ipt.value)
+    };
+
+    ipt.addEventListener("keypress", handle);
+    function handle(event) {
+        if (event.keyCode == 13) {
+            alert(ipt.value)
+        }
+    }
+    ipt.addEventListener("keyup", del);
+    function del(event) {
+        if (event.keyCode == 27) {
+            ipt.value = ''
+        }
+    }
+</script>
+
+</html>
